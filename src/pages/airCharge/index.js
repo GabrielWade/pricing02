@@ -1,12 +1,22 @@
+import ChargeTable from "../../components/Table";
+import styled from "styled-components";
 
+const Container = styled.div`
+  margin-left: 13%;
+  
+  & h1 {
+    color: #313131;
+  }
+`;
 
 function Home (){
     return (
-        <div>
+        <Container>
             <h1>
-                Home em construção...
+                MANAGE TARIFF AIR CHARGE
             </h1>
-        </div>
+            <ChargeTable />
+        </Container>
     )
 }
 
